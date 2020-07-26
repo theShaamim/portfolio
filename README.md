@@ -1,15 +1,15 @@
 # Portfolio Django web application
 #### Django full functional portfolio + blog web application.
 
-![Image of homeage of this repository](https://github.com/nasim-007/nasimportfolio/blob/master/nasimp.png)
+![Image of homeage of this repository](https://github.com/nasim-007/portfolio/blob/add-migrations/portfolio.png)
 
 #### Prerequisite:
 ###### 1: python 3.8
 
 # Deploy at heroku
 ```
-It's 100% ready to deploy at heroku container. Just fork the 'add-migrations' branch of this repository or make your own. 
-Login your heroku account and make an app.
+It's 100% ready to deploy at heroku container. Just fork the 'add-migrations' branch of this repository 
+or make your own. Login your heroku account and make an app.
 In deploy method, select github. connect your repository and start deploy. that's it. 
 ```
 
