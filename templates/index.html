@@ -19,8 +19,8 @@
 
 				<!-- social icons -->
 				<ul class="social-icons light list-inline mb-0 mt-4">
-					<li class="list-inline-item"><a href="https://www.facebook.com/Nasim.Nimu2011"><i class="icofont-facebook"></i></i></a></li>
-					<li class="list-inline-item"><a href="https://www.github.com/Nasim-NIMU/"><i class="icofont-github"></i></i></a></li>
+					<li class="list-inline-item"><a href="https://www.facebook.com/nasimnimu007"><i class="icofont-facebook"></i></i></a></li>
+					<li class="list-inline-item"><a href="https://www.github.com/nasim-007/"><i class="icofont-github"></i></i></a></li>
 					
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/nasim-nimu"><i class="icofont-linkedin"></i></i></a></li>
 					
@@ -102,7 +102,7 @@
 								<!-- about text -->
 								<p>I am Nasim Mahmud, web developer from Dhaka, Bangladesh. I have rich experience in dynamic web applications building and customization, I am good at Django(Python).</p>
 								<div class="mt-3">
-									<a href="#" class="btn btn-default">Download CV</a>
+									<a href="/static/download/testfile.txt" class="btn btn-default" download="testfile" >Download CV</a>
 								</div>
 								<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 							</div>
@@ -161,7 +161,7 @@
 					<div class="fact-item">
 						<span class="icon icon-fire"></span>
 						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">15</em></h3>
+							<h3 class="mb-0 mt-0 number"><em class="count">25</em></h3>
 							<p class="mb-0">Projects completed</p>
 						</div>
 					</div>
@@ -185,7 +185,7 @@
 					<div class="fact-item">
 						<span class="icon icon-people"></span>
 						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">4</em></h3>
+							<h3 class="mb-0 mt-0 number"><em class="count">15</em></h3>
 							<p class="mb-0">Satisfied clients</p>
 						</div>
 					</div>
@@ -197,7 +197,7 @@
 					<div class="fact-item">
 						<span class="icon icon-badge"></span>
 						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">2</em></h3>
+							<h3 class="mb-0 mt-0 number"><em class="count">5</em></h3>
 							<p class="mb-0">Nominees winner</p>
 						</div>
 					</div>
@@ -280,7 +280,7 @@
 						<!-- timeline item -->
 						<div class="timeline-container wow fadeInUp">
 							<div class="content">
-								<span class="time">2017 - Present</span>
+								<span class="time">2017 - 2020</span>
 								<h3 class="title">Bachelor’s Degree</h3>
 								<p>BSC in SE, American International University-Bangladesh</p>
 							</div>
@@ -298,9 +298,9 @@
 						<!-- timeline item -->
 						<div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
 							<div class="content">
-								<span class="time">Physics - Higher Math</span>
-								<h3 class="title">Teaching</h3>
-								<p>Barnomala Education Center, Global Education Center</p>
+								<span class="time">2011 - 2013</span>
+								<h3 class="title">SSC-Science</h3>
+								<p>Ideal School And College</p>
 							</div>
 						</div>
 
@@ -322,27 +322,27 @@
 						<!-- timeline item -->
 						<div class="timeline-container wow fadeInUp">
 							<div class="content">
-								<span class="time">2019 - Present</span>
+								<span class="time">2017 - 2018</span>
 								<h3 class="title">Web Security</h3>
-								<p>Working on personal projects.</p>
+								<p>Skilled at Ethical hacking, Network and Web security.</p>
 							</div>
 						</div>
 
 						<!-- timeline item -->
 						<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
 							<div class="content">
-								<span class="time">2019 - Present</span>
+								<span class="time">2019 - 2020</span>
 								<h3 class="title">Back-End Developer</h3>
-								<p>Working on professional projects, practical knowledge in Django framework.</p>
+								<p>Python developer, skilled at Django framework. I can build any type of backend tasks.</p>
 							</div>
 						</div>
 
 						<!-- timeline item -->
 						<div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
 							<div class="content">
-								<span class="time">2018 - 2019</span>
+								<span class="time">2017 - 2020</span>
 								<h3 class="title">Front-End Developer</h3>
-								<p>Working on professional projects.</p>
+								<p>Skilled at JS frameworks</p>
 							</div>
 						</div>
 
@@ -387,7 +387,7 @@
 							</a>
 							{% endfor %}
                             <a href="{% url 'work_detail' work.pk %}">
-								<img src="{{ work.image.url }}" alt="work-title" />
+								<img src="/static/images/6.png" alt="work-title" />
 							</a>
 						</div>
 						<div class="details">
@@ -618,7 +618,7 @@
 							</a>
 							{% endfor %}
                             <a href="{% url 'blog_detail' post.pk %}">
-								<img src="{{ post.image.url }}" alt="blog-title" />
+								<img src="/static/images/6.png" alt="blog-title" />
 							</a>
 						</div>
 						<div class="details">
