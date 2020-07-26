@@ -155,7 +155,7 @@
 							</a>
 							{% endfor %}
                             <a href="{% url 'blog_detail' post.pk %}">
-								<img src="/static/demo/myportfolio.png" alt="blog-title" />
+								<img src="{{ post.image.url }}" alt="blog-title" />
 							</a>
 						</div>
 						<div class="details">
